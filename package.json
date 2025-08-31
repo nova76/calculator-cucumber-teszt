@@ -1,0 +1,27 @@
+{
+  "name": "calculator-cucumber-teszt",
+  "version": "1.0.0",
+  "description": "Cucumber tesztek a számológép alkalmazáshoz",
+  "scripts": {
+    "test": "cucumber-js",
+    "test:debug": "powershell -Command \"$env:DEBUG='true'; npm run test-raw\"",
+    "test-raw": "cucumber-js"
+  },
+  "devDependencies": {
+    "@cucumber/cucumber": "^10.9.0",
+    "chai": "^5.1.1",
+    "cross-env": "^10.0.0",
+    "puppeteer": "^24.9.0",
+    "reflect-metadata": "^0.2.2"
+  },
+  "keywords": [
+    "ai",
+    "test",
+    "cucumber",
+    "calculator",
+    "bdd",
+    "javascript"
+  ],
+  "author": "",
+  "license": "ISC"
+}
